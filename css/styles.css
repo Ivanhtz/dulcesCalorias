@@ -5,9 +5,225 @@
     padding: 0;
 }
 
+body
+{
+    overflow-x: hidden;
+}
+
 html
 {
     font-size: 62.5%;
     font-family: 'Indie Flower', cursive;
+    overflow-x: hidden;
 }
 
+header
+{
+    position: relative;
+    width: 100%;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-width: 320px;
+    background: linear-gradient(356deg, rgba(131,58,180,1) 11%, rgba(233,195,54,0.9139005944174545) 27%, rgba(252,176,69,1) 100%);
+}
+
+header img
+{
+    margin-bottom: 12px;
+    width: 250px;
+    height: 80px;
+    align-self: center;
+    border: 2px solid #833ab4;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.header-container--title
+{
+    width: 90%;
+    text-align: center;
+    align-self: center;
+    min-width: 288px;
+    max-width: 900px;
+    margin-bottom: 40px;
+}
+
+.header-container--title h1
+{
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    /*color: mintcream;*/
+}
+
+.header-container--title a
+{
+    position: absolute;
+    display: block;
+    width: 229px;
+    height: 48px;
+    padding: 15px;
+    background-color: navajowhite;
+    top: 231px;
+    left: 48px;
+    border-radius: 9px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.4rem;
+    color: brown;
+    font-weight: bold;
+}
+
+.seccion-img
+{
+    
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/waffles-2190961_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seccion-img h2
+{   
+    padding-top: 60px;
+    font-size: 3.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seccion-info
+{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: #fcb045;
+    padding: 20px 10px;
+}
+
+.seccion-info--logo
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('../assets/logo/galleta.svg');
+    top: -21px;
+    background-repeat: no-repeat;
+    left: calc(50% - 29px);
+}
+
+.seccion-info--titulo
+{
+    width: 90%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.seccion-info--titulo h2
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.seccion-info--titulo p
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+.seccion-info--cards
+{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.seccion-info--cards .carta
+{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 170px;
+    margin: 15px -5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #F4A460;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.carta .carta-logo1
+{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-bottom: 10px;
+    background-image: url('../assets/logo/chocolate.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carta .carta-logo2
+{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-bottom: 10px;
+    background-image: url('../assets/logo/cuerno.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carta .carta-logo3
+{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-bottom: 10px;
+    background-image: url('../assets/logo/galleta.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carta .carta-logo4
+{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-bottom: 10px;
+    background-image: url('../assets/logo/fresa.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carta h4
+{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    line-height: 1.8rem;
+    font-weight: bold;
+}
+
+.carta p
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
