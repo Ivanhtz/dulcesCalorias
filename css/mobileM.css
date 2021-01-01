@@ -1,0 +1,31 @@
+.header-container--title a {
+    position: absolute;
+    display: block;
+    width: 229px;
+    height: 48px;
+    padding: 15px;
+    background-color: navajowhite;
+    top: 231px;
+    left: 70px;
+    border-radius: 9px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.4rem;
+    color: brown;
+    font-weight: bold;
+}
+
+seccion-info--cards {
+   
+    padding: 20px 36px;
+}
+
+.seccion-recetas--logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/logo/cake_122732.svg);
+    background-repeat: no-repeat;
+    bottom: -36px;
+    left: calc(50% - 21px);
+}

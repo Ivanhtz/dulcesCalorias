@@ -1,0 +1,40 @@
+.header-container--title a {
+    left: 256px;
+}
+
+.seccion-info--cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    left: 10px;
+}
+
+.seccion-recetas--logo
+{
+    left: calc(50% - 28px);
+}
+
+.recetas
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    left: 10px;
+}
+
+.pago-target--container
+{
+    display: flex;
+}
+
+.target
+{
+    left: 15px;
+}
+
+.logo {
+    padding: 10px;
+    width: 278px;
+    height: 110px;
+}
