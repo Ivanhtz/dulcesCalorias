@@ -227,3 +227,295 @@ header img
     font-weight: 500;
     line-height: 1.8rem;
 }
+
+.seccion-recetas--logo
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('../assets/logo/cake_122732.svg');
+    background-repeat: no-repeat;
+    bottom: -36px;
+    left: calc(50% - 36px);
+}
+
+.seccion-recetas--container
+{
+    
+    width: 100%;
+    height: auto;
+    background-color: #EDC648;
+}
+
+.recetas--titulo
+{
+    width: 90%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 36px; 
+    text-align: center;
+}
+
+.recetas--titulo h2
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.recetas--titulo p
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+.recetas
+{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.recetas .receta1
+{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 170px;
+    margin: 15px 4px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    background-image: url('../assets/img/croissants.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.recetas .receta2
+{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 170px;
+    margin: 15px 4px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    background-image: url('../assets/img/waffle-984499_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.recetas .receta3
+{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 170px;
+    margin: 15px 4px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    background-image: url('../assets/img/cake-3555185_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.recetas .receta4
+{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 170px;
+    margin: 15px 4px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    background-image: url('../assets/img/bizcocho.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.seccion-pago
+{
+    
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: #fcb045;
+    padding: 20px 10px;
+}
+
+.seccion-pago--titulo
+{
+    width: 90%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 36px; 
+    text-align: center;
+}
+
+.seccion-pago--titulo h2
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.seccion-pago-logo
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/logo/chocolate_cocoa_bar_icon_153926.svg');
+    top: -24px;
+    left: calc(50% - 20px);
+    background-repeat: no-repeat;
+    
+}
+
+.target
+{
+    position: relative;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 44px 0;
+    padding: 0 15px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
+}
+
+.pm{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    font-size: 1.5rem;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: orangered;
+    color: white;
+}
+
+.pa{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    font-size: 1.5rem;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: Darkorange;
+    color: white;
+}
+
+.contenido-target h3
+{
+    padding-top: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+
+.contenido-target p
+{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    margin-top: 9px;
+    color: black;
+}
+
+.contenido-target span
+{
+    font-size: 2.3rem;
+    margin-left: -12px;
+
+}
+
+.boton1
+{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.boton2
+{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: pink;
+}
+
+.nombres
+{
+    padding: 10px;
+}
+
+.nombres li
+{
+    list-style: none;
+}
+
+.nombres li a
+{
+    color: palevioletred;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.logo
+{
+    padding: 10px;
+    
+    width: 230px;
+    height: 100px;
+    
+}
+
+.logo img
+{
+    width: 100%;
+    height: 100%;
+}
